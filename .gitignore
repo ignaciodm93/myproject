@@ -1,0 +1,7 @@
+.project
+myproject/bin/.gitattributes
+myproject/bin/mvnw
+myproject/bin/mvnw.cmd
+myproject/bin/pom.xml
+myproject/bin/.mvn/wrapper/maven-wrapper.properties
+myproject/bin/.gitignore
