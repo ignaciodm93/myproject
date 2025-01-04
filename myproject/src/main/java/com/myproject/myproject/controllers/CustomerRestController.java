@@ -31,11 +31,6 @@ public class CustomerRestController {
 	}
 
 	@GetMapping("/{id}")
-	public List<Customer> get(@PathVariable String id) {
-		return customerRepository.findAll();
-	}
-
-	@GetMapping("/{id}")
 	public ResponseEntity<?> get(@PathVariable long id) {
 		Optional<Customer> customer = customerRepository.findById(id);
 		if (customer.isPresent()) {
